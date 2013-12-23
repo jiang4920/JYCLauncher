@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jyc="http://schemas.android.com/apk/res/com.jyc.launcher"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,5 +11,13 @@
     android:background="#000000"
     android:id="@+id/layout">
 
+    <com.jyc.launcher.view.CellLayout
+        jyc:columnNum="5"
+        jyc:rowNum="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dip"
+        android:id="@+id/cell_layout"
+        />
 
 </RelativeLayout>
